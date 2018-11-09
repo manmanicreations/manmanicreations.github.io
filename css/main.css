@@ -108,18 +108,18 @@ body{
 }	
 .contacts-text{
 	font-size: 3vh;
-	font-family: cavbold;
+	font-family: impact;
 	text-decoration: none;
 	margin-bottom: 2vh;
 	margin-left: 1vh;
 	vertical-align: middle;
 	text-shadow:
-	    -1px -1px 0 #fff,
-	    0px -1px 0 #fff,
-	    1px -1px 0 #fff,
-	    -1px 1px 0 #fff,
-	    0px 1px 0 #fff,
-	    1px 1px 0 #fff;
+	    -0.5px -0.5px 0 #fff,
+	    0px -0.5px 0 #fff,
+	    0.5px -0.5px 0 #fff,
+	    -0.5px 0.5px 0 #fff,
+	    0px 0.5px 0 #fff,
+	    0.5px 0.5px 0 #fff;
 	color:#000;  
 	display: inline-block;  
 	
@@ -242,18 +242,18 @@ body{
 	}	
 	.contacts-text{
 		font-size: 3vw !important;
-		font-family: cavbold;
+		font-family: impact;
 		text-decoration: none;
 		margin-bottom: 2vw !important;
 		margin-left: 1vw !important;
 		vertical-align: middle;
 		text-shadow:
-		    -1px -1px 0 #fff,
-		    0px -1px 0 #fff,
-		    1px -1px 0 #fff,
-		    -1px 1px 0 #fff,
-		    0px 1px 0 #fff,
-		    1px 1px 0 #fff;
+		    -0.5px -0.5px 0 #fff,
+		    0px -0.5px 0 #fff,
+		    0.5px 0.5px 0 #fff,
+		    -0.5px 0.5px 0 #fff,
+		    0px 0.5px 0 #fff,
+		    0.5px 0.5px 0 #fff;
 		color:#000;  
 		display: inline-block;  
 	}

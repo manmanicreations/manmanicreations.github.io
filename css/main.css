@@ -1,0 +1,263 @@
+@font-face {
+    font-family: newfont;
+    src: url(newfont.ttf);
+}
+@font-face {
+    font-family: cavbold;
+    src: url(caviarfontbold.ttf);
+}
+body{
+	background-image: url("../img/abstract.jpg");
+	background-size: cover;
+}
+
+.logo{
+		width: 40vh;
+		height: 40vh;
+		border-radius: 50%;
+	}
+.tagline{
+		margin-top: 2vh;
+		color: #503870;
+		font-family: newfont;
+		font-size: 6vh;
+		text-shadow:
+		    -1px -1px 0 #fff,
+		    0px -1px 0 #fff,
+		    1px -1px 0 #fff,
+		    -1px 1px 0 #fff,
+		    0px 1px 0 #fff,
+		    1px 1px 0 #fff;
+	}
+.title-bar{
+	display: inline-block;
+	background: #fff;
+	padding: none;
+	margin-top: 3vh;
+	border-radius: 1.5vh;
+	border: double 1vh #503870;
+	
+}
+
+.nav-buttons{
+	background: #503870;
+	color: #fff;
+	display: block;
+	margin: 2vh;
+	padding: 1.5vh;
+	border: double 1vh #fff;
+	border-radius: 1vh;
+	width: 20vh;
+	font-family: cavbold;
+	font-size: 3vh;
+}
+
+/*Side CSS for portrait*/
+.side-logo{
+	margin-left: 25%;
+	width: 50%;
+	border-radius: 50% !important;
+	
+}
+.side-tagline{
+	margin-top:1%;
+	text-align: center; 
+	color: #503870;
+	font-family: newfont;
+	font-size: 5vh;
+	text-shadow:
+	    -1px -1px 0 #fff,
+	    0px -1px 0 #fff,
+	    1px -1px 0 #fff,
+	    -1px 1px 0 #fff,
+	    0px 1px 0 #fff,
+	    1px 1px 0 #fff;
+}
+.side-title-bar{
+	display: block;
+	background: transparent;
+	margin-top: 1%;
+	text-align: center; 
+}
+
+.side-nav-buttons{
+	text-align: center;
+	background: #503870;
+	color: #fff;
+	display: inline-block;
+	margin: 0.5vh;
+	padding: 0.5vh;
+	border: double 1vh #fff;
+	border-radius: 1vh;
+	width: 12vh;
+	font-family: cavbold;
+	font-size: 2vh;
+
+}
+
+.side-contents{
+	text-align: center;
+	background-color: rgba(250,00,250,0.3);
+	border-radius: 5vh;
+	border: dotted 0.5vh #fff;
+
+}
+.contacts-icon{
+	width: 3vh;
+	margin-top: 2vh;
+}	
+.contacts-text{
+	font-size: 3vh;
+	font-family: cavbold;
+	text-decoration: none;
+	margin-bottom: 2vh;
+	margin-left: 1vh;
+	vertical-align: middle;
+	text-shadow:
+	    -1px -1px 0 #fff,
+	    0px -1px 0 #fff,
+	    1px -1px 0 #fff,
+	    -1px 1px 0 #fff,
+	    0px 1px 0 #fff,
+	    1px 1px 0 #fff;
+	color:#000;  
+	display: inline-block;  
+	
+}
+
+@media (min-width: 200px) and (orientation: landscape) { 
+
+	.logo{
+		width: 20vw !important;
+		height: 20vw !important;
+		border-radius: 50% !important;
+	}
+	.tagline{
+		margin-top: 2vw !important;
+		color: #503870;
+		font-family: newfont;
+		font-size: 5vw !important;
+		text-shadow:
+		    -1px -1px 0 #fff,
+		    0px -1px 0 #fff,
+		    1px -1px 0 #fff,
+		    -1px 1px 0 #fff,
+		    0px 1px 0 #fff,
+		    1px 1px 0 #fff;
+	}
+	.title-bar{
+		display: inline-block;
+		background: #fff;
+		
+		margin-top: 1vw !important;
+		border-radius: 1.5vw !important;
+		border: double 0.5vw !important #503870;
+	}
+
+	.nav-buttons{
+		background: #503870;
+		color: #fff;
+		display: inline-block;
+		margin: 0.5vw !important;
+		padding: 0.5vw !important;
+		border: double 0.5vw !important #fff;
+		border-radius: 1vw !important;
+		width: 10vw !important;
+		font-family: cavbold;
+		font-size: 1vw !important;
+		-webkit-transition: 0.25s ease-in-out/*, border 1s, color 1s*/;
+		transition: 0.25s ease-in-out/*, border 1s, color 1s*/;
+	}
+
+	.nav-buttons:hover {
+ 		background: #fff;
+ 		border: double 0.5vw #503870 !important;
+ 		color:	#503870;
+ 		
+	}
+
+	/*Side CSS for landscape*/
+	.side-logo{
+		width: 10vw !important;
+		height: 10vw !important;
+		margin-left: 0;
+		border-radius: 50% !important;
+	}
+	.side-tagline{
+		margin-top: -6vw !important;
+		margin-left: 11vw !important;
+		text-align: left;
+		color: #503870;
+		font-family: newfont;
+		font-size: 3vw;
+		text-shadow:
+		    -1px -1px 0 #fff,
+		    0px -1px 0 #fff,
+		    1px -1px 0 #fff,
+		    -1px 1px 0 #fff,
+		    0px 1px 0 #fff,
+		    1px 1px 0 #fff;
+	}
+	.side-title-bar{
+		display: inline-block;
+		background: transparent;
+		float: right;
+		margin-top: -4.5vw;
+		border-radius: 1.5vw;
+		border: dotted 0.5vw #fff;
+	}
+
+	.side-nav-buttons{
+		text-align: center;
+		background: #503870;
+		color: #fff;
+		display: inline-block;
+		margin: 0.5vw;
+		padding: 0.5vw;
+		border: double 0.5vw #fff;
+		border-radius: 1vw;
+		width: 10vw;
+		font-family: cavbold;
+		font-size: 1vw;
+		-webkit-transition: 0.25s ease-in-out/*, border 1s, color 1s*/;
+		transition: 0.25s ease-in-out/*, border 1s, color 1s*/;
+	}
+
+	.side-nav-buttons:hover {
+ 		background: #fff;
+ 		border: double 0.5vw #503870;
+ 		color:	#503870;
+ 		
+	}
+	.side-contents{
+		text-align: center;
+		background-color: rgba(250,00,250,0.3);
+		border-radius: 50vw !important;
+		border: dotted 0.5vw #fff !important;
+
+	}
+	.contacts-icon{
+		width: 3vw !important;
+		margin-top: 2vw !important;
+	}	
+	.contacts-text{
+		font-size: 3vw !important;
+		font-family: cavbold;
+		text-decoration: none;
+		margin-bottom: 2vw !important;
+		margin-left: 1vw !important;
+		vertical-align: middle;
+		text-shadow:
+		    -1px -1px 0 #fff,
+		    0px -1px 0 #fff,
+		    1px -1px 0 #fff,
+		    -1px 1px 0 #fff,
+		    0px 1px 0 #fff,
+		    1px 1px 0 #fff;
+		color:#000;  
+		display: inline-block;  
+	}
+ }
+
+
+

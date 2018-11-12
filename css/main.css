@@ -6,9 +6,14 @@
     font-family: cavbold;
     src: url(caviarfontbold.ttf);
 }
+@font-face {
+    font-family: hemera;
+    src: url(hemera.ttf);
+}
 body{
-	background-image: url("../img/abstract.jpg");
+	background-image: url("https://images4.alphacoders.com/871/87128.jpg")/*url("../img/abstract.jpg")*/;
 	background-size: cover;
+
 }
 
 .logo{
@@ -134,7 +139,7 @@ body{
 	border:double 1vh #fff;
 }
 .prod{
-	font-family: newfont;
+	font-family: cavbold;
 	font-size: 5vh;
 	margin: 2vh;
 	position: relative;
@@ -290,7 +295,7 @@ body{
 		border:double 1vw #fff;
 	}
 	.prod{
-		font-family: newfont;
+		font-family: hemera;
 		font-size: 2.5vw;
 		margin: 1vw;
 		position: relative;

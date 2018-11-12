@@ -11,7 +11,7 @@
     src: url(hemera.ttf);
 }
 body{
-	background-image: url("https://images4.alphacoders.com/871/87128.jpg")/*url("../img/abstract.jpg")*/;
+	background-image: /*url("https://images4.alphacoders.com/871/87128.jpg")*/url("../img/abstract.jpg");
 	background-size: cover;
 
 }
